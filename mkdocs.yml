@@ -1,0 +1,98 @@
+site_name: TOKEO 日本語ページ
+site_description: Tokeo Pay
+theme:
+  language: ja
+  # favicon: images/favicon.png
+  # logo: images/logo-white.png
+  font:
+    text: Noto Sans JP
+  name: material
+  custom_dir: docs/overrides
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      accent: cyan
+      primary: cyan
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - navigation.footer
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+
+# copyright: Copyright &copy; 2020 - 2022 CARDANO COMMUNITY SPO JAPAN GUILD
+# repo_url: https://github.com/btbf/spojapanguild
+# repo_name: btbf/spojapanguild
+
+plugins:
+  - git-revision-date-localized:
+      type: datetime
+  - search:
+      lang: ja
+
+extra:
+  generator: false
+  # analytics:
+  #   provider: google
+  #   property: G-R9C48XMXE5
+  consent:
+    title: Cookieの使用許諾
+    description: >- 
+      当サイトは、ドキュメントの効果測定や利用者確認のため、クッキーを使用しGoogle アナリティクスによるトラフィックの分析を行っています。
+      ご同意いただける場合は「Accept」をクリックしてください。
+
+    cookies:
+      analytics: Google Analytics
+
+
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - footnotes
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - 'HOME':
+    - 'スタートガイド': './index.md'
