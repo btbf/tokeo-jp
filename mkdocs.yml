@@ -1,9 +1,10 @@
-site_name: TOKEO 日本語ページ
-site_description: Tokeo
+site_name: TOKEO 日本語
+site_url: https://btbf.github.io/tokeo-jp/
+site_description: Tokeoは、安全、安心、そして機能満載の、Cardano以降の次世代スマート・モバイル・ウォレットです。BitcoinやEVMベースのチェーンとシームレスにリンクするクロスチェーンサービスへと迅速に移行する予定です。
 theme:
   language: ja
-  # favicon: images/favicon.png
-  # logo: images/logo-white.png
+  favicon: images/tokeo_logo400x400.jpg
+  logo: images/tokeo_logo400x400.jpg
   font:
     text: Noto Sans JP
   name: material
@@ -15,14 +16,13 @@ theme:
         name: Switch to dark mode
     - scheme: slate
       accent: cyan
-      primary: cyan
+      primary: custom
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
   features:
     - content.tabs.link
-    - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.indexes
     - navigation.top
     - navigation.instant
     - navigation.tracking
@@ -92,5 +92,25 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - 'HOME':
-    - 'スタートガイド': './index.md'
+  - 'TOKEO': 
+    - './index.md'
+    - 'アセット交換': './asset-swap.md'
+    - 'コレクション': './collectibles.md'
+    - '支払い機能': './payments.md'
+    - 'ロードマップ': './roadmap.md'
+    - 'チームについて': './our-team.md'
+  - 'トケノミクス':
+    - './tokenomics.md'
+    - 'トークン割当': './distribution.md'
+    - '権利確定': './vesting.md'
+    - 'ユーティリティ': './utillity.md'
+  - 'ISPO':
+    - 'ispo.md'
+    - 'TOKEO ISPOについて': './tokeo-ispo.md'
+    - 'トークン配布': './token-distribution.md'
+    - 'パートナーSPO': './partner-spos.md'
+    - '報酬': './rewards.md'
+  - '公式リンク':
+     - './official-link.md'
+  - 'Support':
+     - './support.md'
