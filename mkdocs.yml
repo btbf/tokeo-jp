@@ -1,5 +1,5 @@
 site_name: TOKEO 日本語ページ
-site_description: Tokeo Pay
+site_description: Tokeo
 theme:
   language: ja
   # favicon: images/favicon.png
@@ -36,9 +36,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-# copyright: Copyright &copy; 2020 - 2022 CARDANO COMMUNITY SPO JAPAN GUILD
-# repo_url: https://github.com/btbf/spojapanguild
-# repo_name: btbf/spojapanguild
+copyright: Copyright &copy; 2024 BTBF
 
 plugins:
   - git-revision-date-localized:
@@ -48,9 +46,9 @@ plugins:
 
 extra:
   generator: false
-  # analytics:
-  #   provider: google
-  #   property: G-R9C48XMXE5
+  analytics:
+    provider: google
+    property: G-TX4FW9W9LT
   consent:
     title: Cookieの使用許諾
     description: >- 
