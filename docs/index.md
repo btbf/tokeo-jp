@@ -1,7 +1,7 @@
 # **TOKEO**
 
 !!! info "当ページについて"
-    [TOKEO公式](https://tokeopay.io/)からの依頼によって、日本語翻訳ページを作成しました。 作成者:[BTBF](https://x.com/btbfpark)  
+    [TOKEO公式](https://tokeopay.io/)からの依頼によって、日本語翻訳ページを作成しました。  作成者:[BTBF](https://x.com/btbfpark)  
     英語の公式ドキュメントは[こちら](https://tokeo.gitbook.io/tokeo)
 
 Tokeoは、Cardanoや他のブロックチェーンに対応した次世代スマートモバイルウォレットです。安全性と信頼性が高く、機能が豊富に揃っています。

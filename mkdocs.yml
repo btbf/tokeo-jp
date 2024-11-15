@@ -92,25 +92,32 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - 'TOKEO': 
+  - 'TOKEO':
     - './index.md'
     - 'アセット交換': './asset-swap.md'
     - 'コレクション': './collectibles.md'
     - '支払い機能': './payments.md'
-    - 'ロードマップ': './roadmap.md'
-    - 'チームについて': './our-team.md'
-  - 'トケノミクス':
-    - './tokenomics.md'
-    - 'トークン割当': './distribution.md'
-    - '権利確定': './vesting.md'
-    - 'ユーティリティ': './utillity.md'
+  - 'チームとパートナー': 
+    - './team/index.md'
+    - 'コアチーム': './team/our-team.md'
+    - 'アドバイザー': './team/advisors.md'
+  - 'ロードマップ': './roadmap.md'
+  - 'トケノミクス概要':
+    - './tokenomics/index.md'
+    - 'トークン割当': './tokenomics/distribution.md'
+    - '権利確定': './tokenomics/vesting.md'
+    - '流動性供給戦略': './tokenomics/liquidity.md'
+    - 'ユーティリティ': './tokenomics/utillity.md'
+    - 'トレジャリー': './tokenomics/treasury.md'
+    - 'クロスチェーン': './tokenomics/cross-chain.md'
+    - 'ガバナンス': './tokenomics/governance.md'
   - 'ISPO':
-    - 'ispo.md'
-    - 'TOKEO ISPOについて': './tokeo-ispo.md'
-    - 'トークン配布': './token-distribution.md'
-    - 'パートナーSPO': './partner-spos.md'
-    - '報酬': './rewards.md'
+    - './ispo/index.md'
+    - 'TOKEO ISPOについて': './ispo/tokeo-ispo.md'
+    - 'トークン配布': './ispo/token-distribution.md'
+    - 'パートナーSPO': './ispo/partner-spos.md'
+    - '報酬': './ispo/rewards.md'
+  - 'Tokeo Passes(NFTs)': './nft.md'
   - '公式リンク':
      - './official-link.md'
-  - 'Support':
-     - './support.md'
+  - 'Dapp統合': './dapp-integration.md'
