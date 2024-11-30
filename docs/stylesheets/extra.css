@@ -1,17 +1,17 @@
 .md-typeset {
-    font-size: .75rem;
+    font-size: .9rem;
 }
 
 .md-typeset :is(.admonition,details) {
-    font-size: .75rem;
+    font-size: .9rem;
 }
 
 .md-typeset pre>code {
-    font-size: .72rem;
+    font-size: .9rem;
 }
 
 .md-grid {
-    max-width: 1500px; 
+    max-width: 1800px; 
 }
 
 .md-sidebar--secondary {

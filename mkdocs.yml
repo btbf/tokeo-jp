@@ -115,8 +115,9 @@ nav:
     - './ispo/index.md'
     - 'TOKEO ISPOについて': './ispo/tokeo-ispo.md'
     - 'トークン配布': './ispo/token-distribution.md'
+    - '報酬計算': './ispo/rewards.md'
+    - '報酬請求': './ispo/ispo-claim.md'
     - 'パートナーSPO': './ispo/partner-spos.md'
-    - '報酬': './ispo/rewards.md'
   - 'Tokeo Passes(NFTs)': './nft.md'
   - '公式リンク':
      - './official-link.md'
