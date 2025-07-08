@@ -101,7 +101,12 @@ nav:
     - './team/index.md'
     - 'コアチーム': './team/our-team.md'
     - 'アドバイザー': './team/advisors.md'
-  - 'ロードマップ': './roadmap.md'
+  - '報酬プログラム':
+    - './rewards/index.md'
+    - 'Primeステーキング': './rewards/prime.md'
+    - 'Flexスステーキング': './rewards/flex.md'
+    - 'XPプログラム': './rewards/xp.md'
+    - 'よくある質問': './faqs.md'
   - 'トケノミクス概要':
     - './tokenomics/index.md'
     - 'トークン割当': './tokenomics/distribution.md'
